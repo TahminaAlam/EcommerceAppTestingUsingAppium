@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-20T19:13:47 BDT" name="Suite" finished-at="2022-09-20T19:15:21 BDT" duration-ms="93810">
+    <groups>
+      <group name="AllTest">
+        <method signature="eCommarce_tc_2.FillForm(java.lang.String,java.lang.String)[pri:0, instance:org.rahulshettyacademy.eCommarce_tc_2@16fdec90]" name="FillForm" class="org.rahulshettyacademy.eCommarce_tc_2"/>
+      </group> <!-- AllTest -->
+    </groups>
+    <test started-at="2022-09-20T19:13:47 BDT" name="Error Validation" finished-at="2022-09-20T19:14:33 BDT" duration-ms="45754">
+      <class name="org.rahulshettyacademy.eCommerce_tc_1">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_1@53941c2f]" started-at="2022-09-20T19:13:47 BDT" name="ConfigureAppium" finished-at="2022-09-20T19:14:02 BDT" duration-ms="14767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="FillForm_ErrorValidation()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_1@53941c2f]" started-at="2022-09-20T19:14:02 BDT" name="FillForm_ErrorValidation" finished-at="2022-09-20T19:14:23 BDT" duration-ms="21148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_ErrorValidation -->
+        <test-method signature="FillForm_PositileFlow()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_1@53941c2f]" started-at="2022-09-20T19:14:23 BDT" name="FillForm_PositileFlow" finished-at="2022-09-20T19:14:32 BDT" duration-ms="9182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_PositileFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_1@53941c2f]" started-at="2022-09-20T19:14:32 BDT" name="tearDown" finished-at="2022-09-20T19:14:33 BDT" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_1 -->
+    </test> <!-- Error Validation -->
+    <test started-at="2022-09-20T19:14:33 BDT" name="End to End Freamework" finished-at="2022-09-20T19:15:21 BDT" duration-ms="47552">
+      <class name="org.rahulshettyacademy.eCommarce_tc_2">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.eCommarce_tc_2@16fdec90]" started-at="2022-09-20T19:14:33 BDT" name="ConfigureAppium" finished-at="2022-09-20T19:14:46 BDT" duration-ms="13198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="FillForm(java.lang.String,java.lang.String)[pri:0, instance:org.rahulshettyacademy.eCommarce_tc_2@16fdec90]" started-at="2022-09-20T19:14:46 BDT" name="FillForm" data-provider="getData" finished-at="2022-09-20T19:15:06 BDT" duration-ms="19664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MOU]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method signature="FillForm(java.lang.String,java.lang.String)[pri:0, instance:org.rahulshettyacademy.eCommarce_tc_2@16fdec90]" started-at="2022-09-20T19:15:06 BDT" name="FillForm" data-provider="getData" finished-at="2022-09-20T19:15:20 BDT" duration-ms="14328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulshettyacademy.eCommarce_tc_2@16fdec90]" started-at="2022-09-20T19:15:20 BDT" name="tearDown" finished-at="2022-09-20T19:15:21 BDT" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulshettyacademy.eCommarce_tc_2 -->
+    </test> <!-- End to End Freamework -->
+  </suite> <!-- Suite -->
+</testng-results>
